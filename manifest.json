@@ -1,0 +1,12 @@
+{
+    "manifest_version": 2,
+    "name": "实体标注",
+    "version": "1.0",
+    "description": "基于dbpedia数据集的实体标注",
+    "content_scripts": [
+        {
+            "matches": ["*://*/*"],
+            "js": ["js/jquery-2.2.3.min.js", "js/annotate.js", "js/show.js"]
+        }
+    ]
+}
